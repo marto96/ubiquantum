@@ -1,1 +1,10 @@
+ion-tabs{
+    background:rgba(242,246,248,1);
+}
 
+.tab-selected{
+    background:#fff;
+}
+.tab-selected ion-icon{
+color: red;
+}
