@@ -1,0 +1,13 @@
+
+<ion-list>
+  <ion-item  *ngFor="let directorios of directorio" color="primary">
+    <ion-avatar slot="start">
+<ion-img *ngIf="directorios.logo"
+src="https://www.ubiquantum.com.co/ws/uploads/{{directorios.id}}/{{directorios.logo}}" ></ion-img>
+    </ion-avatar>
+    <ion-label>
+      <h2>{{directorios.name}}</h2>
+      <p>{{directorios.description}}</p>
+    </ion-label>
+  </ion-item>
+</ion-list>
